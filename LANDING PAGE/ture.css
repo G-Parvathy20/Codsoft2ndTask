@@ -1,0 +1,151 @@
+body{
+    background-color: lightblue;
+}
+header{
+    background-color: rgb(238, 203, 127);
+    height: 50px;
+    margin-top:10px;
+    text-align: center;
+}
+h3{
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    padding-top: 5px;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 0px;
+    margin-left: 700px;
+    margin-right:150px;
+    margin-bottom: 0%;
+    padding-right: 5px;
+    padding-left: 20px;
+    border-radius: 30px;
+    width:auto;
+    height: 30px;
+    text-align: right;
+}
+.webname nav a{
+    text-align: center;
+    margin-top:0%;
+    padding-top: 0%;
+    text-decoration: none;
+    color:black;
+    font-weight: bolder;
+    font-size: larger;
+}
+#shop{
+    font-style: italic;
+    font-family:serif;
+    font-size:100%;
+    font-weight: 100;
+}
+#quotes{
+    text-align: center;
+}
+button{
+    background-color: rgb(209, 160, 23);
+    color: black;
+    border-radius: 30px;
+    width:100px;
+    height: 50px;
+    border-color:rgb(219, 185, 74);
+    transition: transform 0.1s linear;
+    animation: zoomAnimation 1s infinite linear;
+}
+@keyframes zoomAnimation {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+h2{
+    color: black;
+}
+.servoffer{
+    display :flex;
+}
+#service1{
+    width: 400px;
+    height: 200px;
+    margin-left: 30px;
+    padding-left: 10px;
+    animation: slideRight 1s ease forwards;
+}
+@keyframes slideRight{
+    0% {
+        transform: translateX(-100px);
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+#service2{
+    width:400px;
+    height:200px;
+    padding-left:50px;
+    animation: slideBottom 2s ease forwards;
+}
+@keyframes slideBottom{
+    0% {
+        transform: translateY(-100px);
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+#service3{
+    width:400;
+    height:200;
+    padding-left: 50px;
+    margin-right: 30px;
+    animation:slideTop .5s ease forwards;
+}
+@keyframes slideTop{
+    0% {
+        transform: translateY(100px);
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+.straight{
+    display: flex;
+    text-align: center;
+}
+#first{
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 10px;
+}
+#second{
+    margin-right:100px;
+    margin-left:100px;
+    padding-left: 35px;
+    padding-right: 40px;  
+}
+#third{
+    margin-right: 100px;
+    margin-left:100px;
+    text-align: right;
+    align-items: right;
+    padding-left: 100px;
+}
+footer{
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(240, 155, 27);
+}
+footer a{
+    text-decoration: none;
+    color:black;
+}
+footer p{
+    color:lightblue;
+}
